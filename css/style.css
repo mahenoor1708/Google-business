@@ -1076,10 +1076,10 @@ body {
 .business-top-right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+/*     justify-content: space-between; */
     gap: 20px;
-    flex: 0 0 25%;
-    max-width: 25%;
+/*     flex: 0 0 25%;
+    max-width: 25%; */
 }
 .business-insights button {
     color: #1769FF;
@@ -1099,7 +1099,10 @@ body {
     font-size: 14px;
     font-family: 'Poppins';
 }
-.business-insights {
+.navbar-bottom-left .tab {
+flex-wrap: wrap;
+}
+/* .business-insights {
     flex: 0 0 10%;
     max-width: 10%;
 }
@@ -1110,7 +1113,7 @@ body {
 .business-months {
     flex: 0 0 50%;
     max-width: 50%;
-}
+} */
 .business-months button {
     border: 1px solid #77819C;
     color: #08031D;
@@ -1286,13 +1289,13 @@ a.view-more-advisor {
     flex-wrap: wrap;
     gap: 20px;
 }
-	.business-top-right {
+/* 	.business-top-right {
         justify-content: space-between;
         gap: 20px;
        
-    }
+    } */
 	.business-insights {
-    flex: 0 0 16%;
+/*     flex: 0 0 16%;
     max-width: 16%;
 }
 	.business-charts {
@@ -1302,6 +1305,12 @@ a.view-more-advisor {
 .business-months {
     flex: 0 0 45%;
     max-width: 45%;
+} */
+		.nav-bar-bottom {
+    margin-left: 0;
+}
+.left-content {
+    margin-left: 0;
 }
 	    .business-counter-parent {
         grid-template-columns: 1fr;
