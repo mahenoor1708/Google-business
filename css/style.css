@@ -1330,6 +1330,7 @@ a.view-more-advisor {
 	main{
 
 		overflow:hidden;
+		        margin: 0;
 	}
 	
 }
