@@ -1453,7 +1453,9 @@ a.view-more-advisor {
 	.google-advisor-title h3 {
     font-size: 15px;
 }
-
+.left-content {
+        padding: 0;
+    }
 
 
 
