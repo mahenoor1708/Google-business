@@ -1294,10 +1294,10 @@ a.view-more-advisor {
         gap: 20px;
        
     } */
-	.business-insights {
+/* 	.business-insights {
 /*     flex: 0 0 16%;
     max-width: 16%;
-}
+} */
 	.business-charts {
     flex: 0 0 16%;
     max-width: 16%;
@@ -1394,23 +1394,6 @@ a.view-more-advisor {
     flex-wrap: wrap;
     gap: 20px;
 }
-/* 	.business-top-right {
-        justify-content: space-between;
-        gap: 20px;
-       
-    } */
-	.business-insights {
-/*     flex: 0 0 16%;
-    max-width: 16%;
-}
-	.business-charts {
-    flex: 0 0 16%;
-    max-width: 16%;
-}
-.business-months {
-    flex: 0 0 45%;
-    max-width: 45%;
-} */
 		.nav-bar-bottom {
     margin-left: 0;
 }
