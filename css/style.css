@@ -1273,7 +1273,61 @@ a.view-more-advisor {
 
 /*----------------------------- Media Mobile Screen -------------------------------*/
 @media only screen and (max-width:479px){
-    
+
+	.nav-bar-bottom-parent {
+    flex-wrap: wrap;
+ gap: 20px;	
+}
+.navbar-bottom-left .tab {
+    gap: 30px;
+    overflow-y: scroll;
+}	
+.business-top {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+	.business-top-right {
+        justify-content: space-between;
+        gap: 20px;
+       
+    }
+	.business-insights {
+    flex: 0 0 16%;
+    max-width: 16%;
+}
+	.business-charts {
+    flex: 0 0 16%;
+    max-width: 16%;
+}
+.business-months {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+	    .business-counter-parent {
+        grid-template-columns: 1fr;
+       
+    }
+	.reviews-section-wrapper img {
+    max-width: 350px;
+}
+	.google-advisor-top {
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+	.to-do-list-inner-wrapper {
+
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+	.navbar-bottom-left .tab {
+    gap: 20px;
+    overflow-y: scroll;
+}
+	
 }
 
 /*----------------------------- Media Small Screen -------------------------------*/
