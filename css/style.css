@@ -1272,7 +1272,7 @@ a.view-more-advisor {
 }
 
 /*----------------------------- Media Mobile Screen -------------------------------*/
-@media only screen and (max-width:479px){
+@media only screen and (max-width:480px){
 
 	.nav-bar-bottom-parent {
     flex-wrap: wrap;
