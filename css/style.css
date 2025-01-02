@@ -1352,9 +1352,9 @@ a.view-more-advisor {
 }
 .business-top-right {
 	flex-wrap: wrap;
-	justify-content: center;
+	
 }
-	    .business-insights {
+/* 	    .business-insights {
         flex: 0 0 auto;
         max-width: 100%;
         margin: 0 auto;
@@ -1367,10 +1367,14 @@ a.view-more-advisor {
 	.business-months {
         flex: 0 0 auto;
         max-width: 100%;
-    }
+    } */
 	    .reviews-section-wrapper img {
         max-width: 230px;
     }
+	.navbar-bottom-left .tab {
+   
+    flex-wrap: wrap;
+}
 	
 	
 }
