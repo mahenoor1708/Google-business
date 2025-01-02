@@ -1250,7 +1250,25 @@ a.view-more-advisor {
 
 /*----------------------------- Media Tab -------------------------------*/
 @media only screen and (max-width:767px){
-    
+
+	.business-top-right {
+	    justify-content: unset;
+	    gap: 25px;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    flex-wrap: wrap;
+	}
+	.nav-text {
+        display: block;
+    }
+	.business-counter-parent {
+	    grid-template-columns: 1fr 1fr;
+	    gap: 30px;
+	}
+	.reviews-advisor {
+    grid-template-columns: 1fr;
+   
+}
 }
 
 /*----------------------------- Media Mobile Screen -------------------------------*/
