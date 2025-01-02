@@ -1384,20 +1384,11 @@ a.view-more-advisor {
 	flex-wrap: wrap;
 	
 }
-/* 	    .business-insights {
+.business-months {
         flex: 0 0 auto;
         max-width: 100%;
         margin: 0 auto;
     }
-	    .business-charts {
-        flex: 0 0 auto;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-	.business-months {
-        flex: 0 0 auto;
-        max-width: 100%;
-    } */
 	    .reviews-section-wrapper img {
         max-width: 230px;
     }
