@@ -1327,10 +1327,40 @@ a.view-more-advisor {
     gap: 20px;
     overflow-y: scroll;
 }
+	main{
+
+		overflow:hidden;
+	}
 	
 }
 
 /*----------------------------- Media Small Screen -------------------------------*/
 @media only screen and (max-width:320px){
-    
+
+.business-top {
+   justify-content: center;
+}
+.business-top-right {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+	    .business-insights {
+        flex: 0 0 auto;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+	    .business-charts {
+        flex: 0 0 auto;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+	.business-months {
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+	    .reviews-section-wrapper img {
+        max-width: 230px;
+    }
+	
+	
 }
