@@ -1456,6 +1456,10 @@ a.view-more-advisor {
 .left-content {
         padding: 0;
     }
+	.top-bar {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 
